@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="BatteryTime" customModuleProvider="target">
+            <connections>
+                <outlet property="percentageMenu" destination="5NL-YJ-j9m" id="IhL-jY-g6a"/>
+                <outlet property="statusItemMenu" destination="JHa-4E-A7b" id="tZZ-FV-bg2"/>
+                <outlet property="statusMenu" destination="hKs-fX-gug" id="0vx-dP-WYo"/>
+                <outlet property="statusSourceMenu" destination="Tdt-lO-NnI" id="CTw-rQ-spf"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="8Z4-8a-Abw" customClass="BatteryTimeController" customModule="BatteryTime" customModuleProvider="target"/>
+        <menu id="hKs-fX-gug">
+            <items>
+                <menuItem title="🔋BatteryTime" id="d8A-vg-mU9">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Item" id="Tdt-lO-NnI">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="item" id="JHa-4E-A7b">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Item" id="5NL-YJ-j9m">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="CGI-8h-Cfn"/>
+                <menuItem title="Quit" id="7MR-8a-aWM">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="Voe-Tx-rLC" id="b10-xt-xhx"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>
