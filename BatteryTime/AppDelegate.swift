@@ -33,7 +33,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusSourceMenu.title = status[3]
         percentageMenu.title = status[2]
         
-        print("updating")
+        //print("updating")
     }
 }
 

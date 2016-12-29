@@ -22,7 +22,7 @@ class BatteryTimeController:NSObject {
     
     func status() -> Array<String>{
         let battController = BatteryTimeController()
-        var batt = battController.shell("pmset", "-g", "batt", "|awk", "'{print $4 $5 $6}'", "|grep", "';'|sed 's/;/", "/g'")
+        var batt = battController.shell("pmset", "-g", "batt", "|awk", "'{print $4 $5 $6}'", "|grep", "';'")
         
         var info = batt.characters.split{$0 == ";"}.map(String.init)
         var infoDetail = info[0].characters.split{$0 == "\n"}.map(String.init)
