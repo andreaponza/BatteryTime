@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6539C4411E13B5B600755BE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6539C4401E13B5B600755BE5 /* AppDelegate.swift */; };
+		6539C4431E13B5B600755BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6539C4421E13B5B600755BE5 /* Assets.xcassets */; };
+		6539C4461E13B5B600755BE5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6539C4441E13B5B600755BE5 /* MainMenu.xib */; };
+		6539C44F1E13B9B300755BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6539C44E1E13B9B300755BE5 /* Foundation.framework */; };
+		6539C4511E13BB0B00755BE5 /* BatteryTimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6539C4501E13BB0B00755BE5 /* BatteryTimeController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6539C43D1E13B5B600755BE5 /* BatteryTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6539C4401E13B5B600755BE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6539C4421E13B5B600755BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6539C4451E13B5B600755BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6539C4471E13B5B600755BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6539C44E1E13B9B300755BE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6539C4501E13BB0B00755BE5 /* BatteryTimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryTimeController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6539C43A1E13B5B600755BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6539C44F1E13B9B300755BE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6539C4341E13B5B600755BE5 = {
+			isa = PBXGroup;
+			children = (
+				6539C43F1E13B5B600755BE5 /* BatteryTime */,
+				6539C43E1E13B5B600755BE5 /* Products */,
+				6539C44D1E13B9B300755BE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6539C43E1E13B5B600755BE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6539C43D1E13B5B600755BE5 /* BatteryTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6539C43F1E13B5B600755BE5 /* BatteryTime */ = {
+			isa = PBXGroup;
+			children = (
+				6539C4401E13B5B600755BE5 /* AppDelegate.swift */,
+				6539C4501E13BB0B00755BE5 /* BatteryTimeController.swift */,
+				6539C4421E13B5B600755BE5 /* Assets.xcassets */,
+				6539C4441E13B5B600755BE5 /* MainMenu.xib */,
+				6539C4471E13B5B600755BE5 /* Info.plist */,
+			);
+			path = BatteryTime;
+			sourceTree = "<group>";
+		};
+		6539C44D1E13B9B300755BE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6539C44E1E13B9B300755BE5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6539C43C1E13B5B600755BE5 /* BatteryTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6539C44A1E13B5B600755BE5 /* Build configuration list for PBXNativeTarget "BatteryTime" */;
+			buildPhases = (
+				6539C4391E13B5B600755BE5 /* Sources */,
+				6539C43A1E13B5B600755BE5 /* Frameworks */,
+				6539C43B1E13B5B600755BE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatteryTime;
+			productName = BatteryTime;
+			productReference = 6539C43D1E13B5B600755BE5 /* BatteryTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6539C4351E13B5B600755BE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andrea De Martino";
+				TargetAttributes = {
+					6539C43C1E13B5B600755BE5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9H7332N28N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6539C4381E13B5B600755BE5 /* Build configuration list for PBXProject "BatteryTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6539C4341E13B5B600755BE5;
+			productRefGroup = 6539C43E1E13B5B600755BE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6539C43C1E13B5B600755BE5 /* BatteryTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6539C43B1E13B5B600755BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6539C4431E13B5B600755BE5 /* Assets.xcassets in Resources */,
+				6539C4461E13B5B600755BE5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6539C4391E13B5B600755BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6539C4511E13BB0B00755BE5 /* BatteryTimeController.swift in Sources */,
+				6539C4411E13B5B600755BE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6539C4441E13B5B600755BE5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6539C4451E13B5B600755BE5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6539C4481E13B5B600755BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6539C4491E13B5B600755BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		6539C44B1E13B5B600755BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9H7332N28N;
+				INFOPLIST_FILE = BatteryTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndreaDeMartino.BatteryTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6539C44C1E13B5B600755BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9H7332N28N;
+				INFOPLIST_FILE = BatteryTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndreaDeMartino.BatteryTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6539C4381E13B5B600755BE5 /* Build configuration list for PBXProject "BatteryTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6539C4481E13B5B600755BE5 /* Debug */,
+				6539C4491E13B5B600755BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6539C44A1E13B5B600755BE5 /* Build configuration list for PBXNativeTarget "BatteryTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6539C44B1E13B5B600755BE5 /* Debug */,
+				6539C44C1E13B5B600755BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6539C4351E13B5B600755BE5 /* Project object */;
+}
